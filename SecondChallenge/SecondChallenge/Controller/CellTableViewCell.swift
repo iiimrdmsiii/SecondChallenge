@@ -9,16 +9,36 @@
 import UIKit
 
 class CellTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    //*********************************************************
+    // MARK: - Properties
+    //*********************************************************
+    
+    var entry: Entry? {
+        didSet {
+            guard let entry = entry else { return }
+            updateCell(with: entry)
+        }
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    //*********************************************************
+    // MARK: - IBOutlets
+    //*********************************************************
+    
+    @IBOutlet weak var foodNameLabel: UILabel!
+    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var caloriesLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
+    //*********************************************************
+    // MARK: - Methods
+    //*********************************************************
+    
+    func updateCell(with entry: Entry) {
+        foodNameLabel.text = entry.nameOfFood
+        ratingLabel.text = entry.rating
+        caloriesLabel.text = entry.calories
+        dateLabel.text = entry.dayConsumed
     }
-
 }

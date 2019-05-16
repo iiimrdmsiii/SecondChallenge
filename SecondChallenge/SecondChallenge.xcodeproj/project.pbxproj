@@ -12,9 +12,9 @@
 		F59A7AE6228C73BF0028898C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59A7AE5228C73BF0028898C /* Assets.xcassets */; };
 		F59A7AE9228C73BF0028898C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A7AE7228C73BF0028898C /* LaunchScreen.storyboard */; };
 		F59A7AF5228CAC8C0028898C /* FoodLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7AF4228CAC8C0028898C /* FoodLogTableViewController.swift */; };
-		F59A7AF7228CAD580028898C /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7AF6228CAD580028898C /* EntryTableViewController.swift */; };
 		F59A7AF9228CAD8D0028898C /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7AF8228CAD8D0028898C /* CellTableViewCell.swift */; };
 		F59A7AFB228CADA20028898C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7AFA228CADA20028898C /* Entry.swift */; };
+		F59A7AFF228DF9F30028898C /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7AFE228DF9F30028898C /* EntryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		F59A7AE8228C73BF0028898C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F59A7AEA228C73BF0028898C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59A7AF4228CAC8C0028898C /* FoodLogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogTableViewController.swift; sourceTree = "<group>"; };
-		F59A7AF6228CAD580028898C /* EntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
 		F59A7AF8228CAD8D0028898C /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 		F59A7AFA228CADA20028898C /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		F59A7AFE228DF9F30028898C /* EntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntryTableViewController.swift; path = ../View/EntryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F59A7AF4228CAC8C0028898C /* FoodLogTableViewController.swift */,
-				F59A7AF6228CAD580028898C /* EntryTableViewController.swift */,
+				F59A7AFE228DF9F30028898C /* EntryTableViewController.swift */,
 				F59A7AF8228CAD8D0028898C /* CellTableViewCell.swift */,
 			);
 			path = Controller;
@@ -171,8 +171,8 @@
 				F59A7AFB228CADA20028898C /* Entry.swift in Sources */,
 				F59A7AF5228CAC8C0028898C /* FoodLogTableViewController.swift in Sources */,
 				F59A7AF9228CAD8D0028898C /* CellTableViewCell.swift in Sources */,
-				F59A7AF7228CAD580028898C /* EntryTableViewController.swift in Sources */,
 				F59A7ADF228C73BA0028898C /* AppDelegate.swift in Sources */,
+				F59A7AFF228DF9F30028898C /* EntryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
